@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: veloera
+    env: docker
+    branch: main
+    dockerfilePath: Dockerfile
+    autoDeploy: true
+    buildCommand: ""
+    startCommand: ""
